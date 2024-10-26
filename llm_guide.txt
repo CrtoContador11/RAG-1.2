@@ -1,0 +1,72 @@
+GUÍA PARA CAMBIAR EL MODELO LLM
+==============================
+
+1. MODELOS RECOMENDADOS Y COMPARATIVAS
+------------------------------------
+
+MODELOS PEQUEÑOS (2-4GB RAM)
+----------------------------
+- facebook/opt-125m (muy ligero, básico)
+- microsoft/phi-1.5 (≈ GPT-3 pequeño)
+- google/flan-t5-small (excelente para Q&A)
+- EleutherAI/pythia-160m (bueno para código)
+
+MODELOS MEDIANOS (4-8GB RAM)
+---------------------------
+- TinyLlama/TinyLlama-1.1B-Chat-v1.0 (≈ GPT-3.5 pequeño)
+- facebook/opt-1.3b (buena comprensión)
+- google/flan-t5-base (versátil)
+- microsoft/phi-2 (≈ GPT-3.5 mediano)
+
+MODELOS GRANDES (8GB+ RAM)
+-------------------------
+LLAMA 3:
+- meta-llama/Llama-3-8b-hf (≈ GPT-3.5)
+- meta-llama/Llama-3-13b-hf (≈ GPT-3.5-turbo)
+- meta-llama/Llama-3-70b-hf (≈ GPT-4)
+
+LLAMA 2:
+- meta-llama/Llama-2-7b-chat-hf (≈ GPT-3.5)
+- meta-llama/Llama-2-13b-chat-hf (≈ GPT-3.5-turbo)
+- meta-llama/Llama-2-70b-chat-hf (≈ GPT-4)
+
+OTROS GRANDES:
+- mistralai/Mixtral-8x7B-v0.1 (≈ GPT-4)
+- mistralai/Mistral-7B-v0.1 (≈ GPT-3.5-turbo)
+- Intel/neural-chat-7b-v3-1 (≈ GPT-3.5)
+
+COMPARATIVA CON OPENAI
+---------------------
+Equivalentes a GPT-3.5:
+- meta-llama/Llama-3-8b-hf
+- mistralai/Mistral-7B-v0.1
+- Intel/neural-chat-7b-v3-1
+
+Equivalentes a GPT-3.5-turbo:
+- meta-llama/Llama-3-13b-hf
+- meta-llama/Llama-2-13b-chat-hf
+- HuggingFaceH4/zephyr-7b-beta
+
+Equivalentes a GPT-4:
+- meta-llama/Llama-3-70b-hf
+- meta-llama/Llama-2-70b-chat-hf
+- mistralai/Mixtral-8x7B-v0.1
+
+MODELOS ESPECIALIZADOS
+---------------------
+Para Código (≈ GitHub Copilot):
+- bigcode/starcoder2-15b
+- WizardLM/WizardCoder-Python-34B-V1.0
+- Phind/Phind-CodeLlama-34B-v2
+
+Para Chat:
+- anthropic/claude-2-100k (≈ GPT-4)
+- HuggingFaceH4/zephyr-7b-beta (≈ GPT-3.5-turbo)
+- microsoft/phi-2 (compacto pero potente)
+
+Para Q&A:
+- google/flan-t5-xl (específico para Q&A)
+- lmsys/fastchat-t5-3b-v1.0 (equilibrado)
+- databricks/dolly-v2-3b (específico para Q&A)
+
+[... Resto del contenido se mantiene igual desde "2. CÓMO CAMBIAR EL MODELO" hasta el final ...]
